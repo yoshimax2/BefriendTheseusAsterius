@@ -1,0 +1,165 @@
+{
+	Texts = [
+		"_append"
+    {
+      Id = "NPC_Theseus_01"
+      DisplayName = "Theseus"
+      Description = "Hero of Athens"
+    }
+    {
+      Id = "NPC_Asterius_01"
+      DisplayName = "Asterius"
+      Description = "Bull of Minos"
+    }
+    {
+      Id = "ExtraDashTrait_Rack"
+      DisplayName = "Minotaur's Bullhorn"
+      Description = "Gain {#AltUpgradeFormat}{$TooltipData.TooltipExtraDashes} {#PreviousFormat} extra dash(es)."
+    }
+    {
+      Id = "ExtraDashTrait"
+      DisplayName = "Minotaur's Bullhorn"
+      Description = "Gain {#AltUpgradeFormat}{$TooltipData.TooltipExtraDashes} {#PreviousFormat} extra dash(es)."
+    }
+    {
+      Id = "GodsFavorTrait"
+      DisplayName = "Favor of the Gods"
+      Description = "Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better."
+    }
+    {
+      Id = "GodsFavorTrait_Rack"
+      InheritFrom = "GodsFavorTrait"
+      Description = "Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}{$TooltipData.TooltipBonusChance:P} {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better."
+    }
+    {
+      Id = "TheseusSignoff"
+      DisplayName = "From Theseus"
+    }
+    {
+      Id = "TheseusSignoff_Common"
+      InheritFrom = "GodsFavorTrait"
+      DisplayName = """Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}+50% {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better.
+      
+	{#AwardFlavorFormat}From Theseus"""
+    }
+    {
+      Id = "TheseusSignoff_Rare"
+      InheritFrom = "GodsFavorTrait"
+      DisplayName = """Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}+75% {#PreviousFormat} chance to be 	{#RareFormat}Rare {#PreviousFormat}or better.
+      
+	{#AwardFlavorFormat}From Theseus"""
+    }
+    {
+      Id = "TheseusSignoff_Epic"
+      InheritFrom = "GodsFavorTrait"
+      DisplayName = """Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}+100% {#PreviousFormat} chance to be 	{#RareFormat}Rare {#PreviousFormat}or better.
+      
+	{#AwardFlavorFormat}From Theseus"""
+    }
+    {
+      Id = "TheseusSignoff_Max"
+      DisplayName = """
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Theseus{#AwardDarkFlavorFormat}; you share a {#AwardMaxFlavorFormat}Brotherly Bond
+
+        {#AwardDarkFlavorFormat}Although quick to judge, once he saw the good in you, he pledged his loyalty forevermore.
+      """
+    }
+    {
+      Id = "TheseusSignoff_Max_Common"
+      InheritFrom = "GodsFavorTrait"
+      DisplayName = """Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}+50% {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better.
+
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Theseus{#AwardDarkFlavorFormat}; you share a {#AwardMaxFlavorFormat}Brotherly Bond
+
+        {#AwardDarkFlavorFormat}Although quick to judge, once he saw the good in you, he pledged his loyalty forevermore.
+      """
+    }
+    {
+      Id = "TheseusSignoff_Max_Rare"
+      InheritFrom = "GodsFavorTrait"
+      DisplayName = """Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}+75% {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better.
+
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Theseus{#AwardDarkFlavorFormat}; you share a {#AwardMaxFlavorFormat}Brotherly Bond
+
+        {#AwardDarkFlavorFormat}Although quick to judge, once he saw the good in you, he pledged his loyalty forevermore.
+      """
+    }
+    {
+      Id = "TheseusSignoff_Max_Epic"
+      InheritFrom = "GodsFavorTrait"
+      DisplayName = """Gain the favor of the gods. Every {$Keywords.GodBoon} you find will have {#AltUpgradeFormat}+100% {#PreviousFormat} chance to be {#RareFormat}Rare {#PreviousFormat}or better.
+
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Theseus{#AwardDarkFlavorFormat}; you share a {#AwardMaxFlavorFormat}Brotherly Bond
+
+        {#AwardDarkFlavorFormat}Although quick to judge, once he saw the good in you, he pledged his loyalty forevermore.
+      """
+    }
+    {
+      Id = "AsteriusSignoff"
+      DisplayName = "From Asterius"
+    }
+    {
+      Id = "AsteriusSignoff_Common"
+      InheritFrom = "ExtraDashTrait"
+      DisplayName = """Gain {#AltUpgradeFormat}1 {#PreviousFormat} extra dash(es).
+
+         {#AwardFlavorFormat}From Asterius"""
+    }
+    {
+      Id = "AsteriusSignoff_Rare"
+      InheritFrom = "ExtraDashTrait"
+      DisplayName = """Gain {#AltUpgradeFormat}2 {#PreviousFormat} extra dash(es).
+
+         {#AwardFlavorFormat}From Asterius"""
+    }
+    {
+      Id = "AsteriusSignoff_Epic"
+      InheritFrom = "ExtraDashTrait"
+      DisplayName = """Gain {#AltUpgradeFormat}3 {#PreviousFormat} extra dash(es).
+
+         {#AwardFlavorFormat}From Asterius"""
+    }
+
+     {
+      Id = "AsteriusSignoff_Max"
+      DisplayName = """
+        From {#AwardMaxFlavorFormat}Asterius{#AwardDarkFlavorFormat}; you share an {#AwardMaxFlavorFormat}Honest Bond
+
+        {#AwardDarkFlavorFormat}Both on the battlefield and off, he considers you a true friend.
+      """
+    }
+    {
+      Id = "AsteriusSignoff_Max_Common"
+      InheritFrom = "ExtraDashTrait"
+      DisplayName = """Gain {#AltUpgradeFormat}1 {#PreviousFormat} extra dash(es).
+
+
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Asterius{#AwardDarkFlavorFormat}; you share an {#AwardMaxFlavorFormat}Honest Bond
+
+        {#AwardDarkFlavorFormat}Both on the battlefield and off, he considers you a true friend.
+      """
+    }
+    {
+      Id = "AsteriusSignoff_Max_Rare"
+      InheritFrom = "ExtraDashTrait"
+      DisplayName = """Gain {#AltUpgradeFormat}2 {#PreviousFormat} extra dash(es).
+
+
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Asterius{#AwardDarkFlavorFormat}; you share an {#AwardMaxFlavorFormat}Honest Bond
+
+        {#AwardDarkFlavorFormat}Both on the battlefield and off, he considers you a true friend.
+      """
+    }
+    {
+      Id = "AsteriusSignoff_Max_Epic"
+      InheritFrom = "ExtraDashTrait"
+      DisplayName = """Gain {#AltUpgradeFormat}3 {#PreviousFormat} extra dash(es).
+
+
+        {#AwardFlavorFormat}From {#AwardMaxFlavorFormat}Asterius{#AwardDarkFlavorFormat}; you share an {#AwardMaxFlavorFormat}Honest Bond
+
+        {#AwardDarkFlavorFormat}Both on the battlefield and off, he considers you a true friend.
+      """
+    }
+	]
+}

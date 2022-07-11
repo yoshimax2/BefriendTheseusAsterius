@@ -1,0 +1,49 @@
+{
+	Units = [
+		"_append"
+		{
+
+      		Name = "NPC_Theseus_01"
+      		InheritFrom = "BaseNPC"
+      		RotationSpeed = 900.0
+      		DisplayInEditor = true
+      		DefaultAngle = 210.0
+      		Thing =
+      			{
+        		Graphic = "Theseus_Idle"
+        		Tallness = 154.0
+        		Interact = 
+        		{
+          			OffsetX = 0.0
+          			OffsetY = 100.0
+        		}
+        		Points = [
+         			{ X = 16 Y = 24 }
+      				]
+      			SubtitleColor = { Red = 1.0 Green = 0.76 Blue = 0.18 }
+      			}
+    		}
+
+      		{
+      		Name = "NPC_Asterius_01"
+      		InheritFrom = "BaseNPC"
+      		RotationSpeed = 900.0
+      		DisplayInEditor = true
+      		Thing =
+      			{
+			AttachedAnim = "MedusaShadow"
+        		Graphic = "Minotaur_Idle"
+        		Tallness = 300.0
+        		Interact = 
+        		{
+          			OffsetX = 0.0
+          			OffsetY = 100.0
+        		}
+        		Points = [
+         			{ X = 0 Y = 30 }
+      				]
+      			SubtitleColor = { Red = 0.62 Green = 0.50 Blue = 0.42 }
+			}
+      		}
+	]
+}

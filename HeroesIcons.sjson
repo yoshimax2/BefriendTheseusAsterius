@@ -1,0 +1,54 @@
+{
+	Animations = [
+		"_append"
+    {
+	Name = "Keepsake_TheseusSticker_Max"
+	InheritFrom = "KeepsakeMax_Sticker"
+	FilePath = "HI\HeroesIcons\TheseusStar"
+    }
+    {
+	Name = "Keepsake_AsteriusSticker_Max"
+	InheritFrom = "KeepsakeMax_Sticker"
+	FilePath = "HI\HeroesIcons\AsteriusStar"
+    }
+    {
+	Name = "Keepsake_Theseus_Max"
+	InheritFrom = "KeepsakeMax_Corner"
+	FilePath = "HI\HeroesIcons\TheseusTriangle"
+    }
+    {
+	Name = "Keepsake_Asterius_Max"
+	InheritFrom = "KeepsakeMax_Corner"
+	FilePath = "HI\HeroesIcons\AsteriusTriangle"
+    }
+    {
+      Name = "Keepsake_Favor"
+      InheritFrom = "KeepsakeIcon"
+      FilePath = "HI\HeroesIcons\KeepsakeTheseus"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    {
+      Name = "Keepsake_Bullhorn"
+      InheritFrom = "KeepsakeIcon"
+      FilePath = "HI\HeroesIcons\KeepsakeMinotaur"
+      EndFrame = 1
+      StartFrame = 1
+    }
+    {
+      Name = "Keepsake_Favor_Small"
+      InheritFrom = "KeepsakeTrayIcon"
+      FilePath = "HI\HeroesIcons\KeepsakeTheseus"
+      EndFrame = 1
+      StartFrame = 1
+    }
+
+    {
+      Name = "Keepsake_Bullhorn_Small"
+      InheritFrom = "KeepsakeTrayIcon"
+      FilePath = "HI\HeroesIcons\KeepsakeMinotaur"
+      EndFrame = 1
+      StartFrame = 1
+    }
+	]
+}

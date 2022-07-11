@@ -1,0 +1,17 @@
+{
+	Texts = [
+		"_append"
+    {
+      Id = "TA_ChoiceText01"
+      DisplayName = "{#DialogueItalicFormat}Be with Them? (Follow your heart.)"
+    }
+    {
+      Id = "TA_BeWithThem"
+      DisplayName = "{#ChoiceBracketFormat}\[ {#ChoiceFormat}Be with Them {#ChoiceBracketFormat}\]"
+    }
+    {
+      Id = "TA_BackOff"
+      DisplayName = "{#ChoiceBracketFormat}\[ {#ChoiceFormat}Politely Decline {#ChoiceBracketFormat}\]"
+    }
+	]
+}

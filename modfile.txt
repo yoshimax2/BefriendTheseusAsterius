@@ -1,0 +1,28 @@
+-: Befriend Theseus and Asterius -
+	Author: Yoshimax -
+	Artists: @KalopsiaLe (Chibis), @Magic_Gonads (Keepsakes)
+	Adds Theseus and Asterius as befriendable characters, giving them new dialogue, keepsakes, and storylines.
+
+	Installation:
+	Put this into your Content/Mods folder
+	Run modimporter.py
+	Enjoy!
+:-
+
+Import "BefriendTheseusAsterius.lua"
+To "Game/Units/NPCs.sjson"
+SJSON "Heroes.sjson"
+To "Game/Text/en/MiscText.en.sjson"
+SJSON "HeroesChoices.sjson"
+To "Game/Text/en/HelpText.en.sjson"
+SJSON "HeroesHelp.sjson"
+To Game/Animations/GUIAnimations.sjson
+SJSON "HeroesIcons.sjson"
+To Win/Packages/HeroesIcons.pkg_manifest
+Replace HeroesIcons.pkg_manifest
+To Win/Packages/HeroesIcons.pkg
+Replace HeroesIcons.pkg
+To Win/Packages/720p/HeroesIcons.pkg_manifest
+Replace HeroesIcons.pkg_manifest
+To Win/Packages/720p/HeroesIcons.pkg
+Replace HeroesIcons.pkg
